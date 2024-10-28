@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ h2 {
+    color: #4CAF50;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#logo {
+    max-width: 100px; /* Change this value to decrease the size */
+    height: auto;    /* Maintain the aspect ratio */
+    margin-bottom: 8px; /* Add some space below the logo */
+}
+#catalog {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.catalog-container {
+    justify-content: center;
+    text-align: center; /* Center the iframe horizontally */
+    margin-left: auto;
+    margin-right: auto;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+gmpx-store-locator {
+  width: 100%;
+  height: 100%;
+
+  /* These parameters customize the appearance of Locator Plus. See the documentation at
+     https://github.com/googlemaps/extended-component-library/blob/main/src/store_locator/README.md
+     for more information. */
+  --gmpx-color-surface: #fff;
+  --gmpx-color-on-surface: #212121;
+  --gmpx-color-on-surface-variant: #757575;
+  --gmpx-color-primary: #1967d2;
+  --gmpx-color-outline: #e0e0e0;
+  --gmpx-fixed-panel-width-row-layout: 28.5em;
+  --gmpx-fixed-panel-height-column-layout: 65%;
+  --gmpx-font-family-base: "Roboto", sans-serif;
+  --gmpx-font-family-headings: "Roboto", sans-serif;
+  --gmpx-font-size-base: 0.875rem;
+  --gmpx-hours-color-open: #188038;
+  --gmpx-hours-color-closed: #d50000;
+  --gmpx-rating-color: #ffb300;
+  --gmpx-rating-color-empty: #e0e0e0;
+}

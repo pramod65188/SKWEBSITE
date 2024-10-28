@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.K Brothers - Fertilizer Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="S K BROTHERS.png" alt="S.K Brothers Logo" id="logo">
+        <h1>Welcome from S.K Brothers</h1>
+        <p>Your shop for fertilizers, pesticides, seeds, and all agriculture products!</p>
+    </header>
+    <section id="catalog">
+        <h2>Our Post</h2>
+        <div class="catalog-container">
+        <img src="p2.jpg" alt="post" width="500" height="500">
+        <br>
+        <img src="p1.png" alt="post" width="500" height="500">
+        </div>
+        <br>
+        <a href="p2.pdf" download>Download Catalog</a>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide a variety of agricultural products including fertilizers, pesticides, and seeds to meet your farming needs.</p>
+        <p><strong>Proprietor:</strong> Pramod Jaiswal</p>
+        <p><strong>Location:</strong> Nai Bazar, Jungle Rasoolpur No. 2, Pin Code: 273203</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Mobile Numbers:</strong> <a href="tel:9792873781">9792873781</a>, <a href="tel:7985946687">7985946687</a></p>
+        <p><strong>Email:</strong> <a href="mailto:jaiswalpramod505@gmail.com">jaiswalpramod505@gmail.com</a></p>
+        <p><a href="https://wa.me/917985946687" id="whatsapp-link">Chat with us on WhatsApp</a></p>
+    </section>
+    <html>
+  <head>
+    <title>Locator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+      const CONFIGURATION = {
+        "locations": [
+          {"title":"S k brothers","address1":"HHQC+29R","address2":"Jungle Rasoolpur No.2, Uttar Pradesh, India","coords":{"lat":26.5876005,"lng":83.5708781},"placeId":"ChIJiUlM6SNhkTkRipYWVVcVrvM"},
+          {"title":"S K Brothers","address1":"Front of kalkata sari house","address2":"Jungle Rasoolpur No.2, Gorakhpur, Uttar Pradesh, India","coords":{"lat":26.583316,"lng":83.561825},"placeId":"ChIJ1yR-lphhkTkRAAAAMLnujGE"}
+        ],
+        "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17,"mapId":""},
+        "mapsApiKey": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg",
+        "capabilities": {"input":true,"autocomplete":true,"directions":true,"distanceMatrix":true,"details":true,"actions":false}
+      };
+
+    </script>
+  </head>
+  <body>
+    <!-- Please note unpkg.com is unaffiliated with Google Maps Platform. -->
+    <script type="module" src="https://unpkg.com/@googlemaps/extended-component-library@0.6"></script>
+
+    <!-- Uses components from the Extended Component Library; see
+         https://github.com/googlemaps/extended-component-library for more information
+         on these HTML tags and how to configure them. -->
+    <gmpx-api-loader key="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg" solution-channel="GMP_QB_locatorplus_v10_cABCDE"></gmpx-api-loader>
+    <gmpx-store-locator map-id="DEMO_MAP_ID"></gmpx-store-locator>
+  </body>
+  </html>
+
+    <footer>
+        <p>&copy; 2024 S.K Brothers. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
