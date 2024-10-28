@@ -41,35 +41,22 @@
     <title>Locator</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script>
-      const CONFIGURATION = {
-        "locations": [
-          {"title":"S k brothers","address1":"HHQC+29R","address2":"Jungle Rasoolpur No.2, Uttar Pradesh, India","coords":{"lat":26.5876005,"lng":83.5708781},"placeId":"ChIJiUlM6SNhkTkRipYWVVcVrvM"},
-          {"title":"S K Brothers","address1":"Front of kalkata sari house","address2":"Jungle Rasoolpur No.2, Gorakhpur, Uttar Pradesh, India","coords":{"lat":26.583316,"lng":83.561825},"placeId":"ChIJ1yR-lphhkTkRAAAAMLnujGE"}
-        ],
-        "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17,"mapId":""},
-        "mapsApiKey": "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg",
-        "capabilities": {"input":true,"autocomplete":true,"directions":true,"distanceMatrix":true,"details":true,"actions":false}
-      };
+      <div style="text-align: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.899489722386!2d83.56600718116213!3d26.587600417132233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39916123e94c4989%3A0xf3ae15575516968a!2sS%20k%20brothers!5e0!3m2!1sen!2sbd!4v1730123541919!5m2!1sen!2sbd" 
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
+    <script>
+ 
     </script>
   </head>
-  <body>
-    <!-- Please note unpkg.com is unaffiliated with Google Maps Platform. -->
-    <script type="module" src="https://unpkg.com/@googlemaps/extended-component-library@0.6"></script>
-
-    <!-- Uses components from the Extended Component Library; see
-         https://github.com/googlemaps/extended-component-library for more information
-         on these HTML tags and how to configure them. -->
-    <gmpx-api-loader key="AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg" solution-channel="GMP_QB_locatorplus_v10_cABCDE"></gmpx-api-loader>
-    <gmpx-store-locator map-id="DEMO_MAP_ID"></gmpx-store-locator>
-  </body>
+  
   </html>
 
     <footer>
         <p>&copy; 2024 S.K Brothers. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+
 </body>
 </html>
